@@ -1,0 +1,15 @@
+ros-rolling-event-camera-codecs (1.0.2-1bullseye) bullseye; urgency=high
+
+  * add dependency on class_loader
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Tue, 19 Sep 2023 04:00:00 -0000
+
+ros-rolling-event-camera-codecs (1.0.1-1bullseye) bullseye; urgency=high
+
+  * initial release
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Tue, 29 Aug 2023 04:00:00 -0000
+
+
