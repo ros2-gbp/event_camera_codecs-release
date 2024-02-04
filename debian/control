@@ -1,0 +1,12 @@
+Source: ros-rolling-event-camera-codecs
+Section: misc
+Priority: optional
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-cmake-auto, ros-rolling-ament-cmake-clang-format <!nocheck>, ros-rolling-ament-cmake-gtest <!nocheck>, ros-rolling-ament-cmake-ros, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-class-loader, ros-rolling-event-camera-msgs, ros-rolling-rclcpp <!nocheck>, ros-rolling-ros-environment, ros-rolling-rosbag2-cpp <!nocheck>, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-event-camera-codecs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-class-loader, ros-rolling-event-camera-msgs, ros-rolling-ros-environment, ros-rolling-ros-workspace
+Description: package to encode and decode event_camera_msgs
