@@ -2,6 +2,13 @@
 Changelog for package event_camera_codecs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.1.3 (2024-02-04)
+------------------
+* added hasSensorTimeSinceEpoch() and getTimeMultiplier()
+  This is to support libcaer event python processing
+* added newInstance(msg) methods
+* Contributors: Bernd Pfrommer
+
 1.1.2 (2023-12-16)
 ------------------
 * added more tests
