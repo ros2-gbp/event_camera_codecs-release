@@ -1,3 +1,26 @@
+## event_camera_codecs (rolling) - 1.0.5-1
+
+The packages in the `event_camera_codecs` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling event_camera_codecs` on `Wed, 29 May 2024 21:13:45 -0000`
+
+The `event_camera_codecs` package was released.
+
+Version of package(s) in repository `event_camera_codecs`:
+
+- upstream repository: https://github.com/ros-event-camera/event_camera_codecs.git
+- release repository: https://github.com/ros2-gbp/event_camera_codecs-release.git
+- rosdistro version: `1.0.4-2`
+- old version: `1.0.4-2`
+- new version: `1.0.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## event_camera_codecs (iron) - 1.2.4-1
 
 The packages in the `event_camera_codecs` repository were released into the `iron` distro by running `/usr/bin/bloom-release --rosdistro iron event_camera_codecs` on `Sun, 04 Feb 2024 20:00:42 -0000`
