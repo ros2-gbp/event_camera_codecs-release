@@ -1,0 +1,12 @@
+Source: ros-kilted-event-camera-codecs
+Section: misc
+Priority: optional
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-cmake-auto, ros-kilted-ament-cmake-clang-format <!nocheck>, ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-cmake-ros, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-class-loader, ros-kilted-event-camera-msgs, ros-kilted-rclcpp <!nocheck>, ros-kilted-ros-environment, ros-kilted-rosbag2-cpp <!nocheck>, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-event-camera-codecs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-class-loader, ros-kilted-event-camera-msgs, ros-kilted-ros-environment, ros-kilted-ros-workspace
+Description: package to encode and decode event_camera_msgs
