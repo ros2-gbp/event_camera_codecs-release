@@ -1,3 +1,26 @@
+## event_camera_codecs (kilted) - 2.0.0-1
+
+The packages in the `event_camera_codecs` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --new-track event_camera_codecs` on `Thu, 22 May 2025 14:52:38 -0000`
+
+The `event_camera_codecs` package was released.
+
+Version of package(s) in repository `event_camera_codecs`:
+
+- upstream repository: https://github.com/ros-event-camera/event_camera_codecs.git
+- release repository: https://github.com/ros2-gbp/event_camera_codecs-release.git
+- rosdistro version: `1.0.5-2`
+- old version: `1.0.5-2`
+- new version: `2.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## event_camera_codecs (humble) - 2.0.0-1
 
 The packages in the `event_camera_codecs` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --edit-track event_camera_codecs` on `Thu, 22 May 2025 14:50:00 -0000`
