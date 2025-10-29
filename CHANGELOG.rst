@@ -2,6 +2,15 @@
 Changelog for package event_camera_codecs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.1 (2025-10-29)
+------------------
+* added getNumberOfBytesUsed() top api
+* more documentation and tests
+* Fix: (void) unused paras for successful build
+* Fix: Enable successful build on macOS (AppleClang)
+* fix bug in libcaer timeMult
+* Contributors: Bernd Pfrommer, Dhruv Patel
+
 2.0.0 (2025-05-22)
 ------------------
 * avoid ament_target_dependencies
