@@ -1,0 +1,12 @@
+Source: ros-lyrical-event-camera-codecs
+Section: misc
+Priority: optional
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-auto, ros-lyrical-ament-cmake-clang-format <!nocheck>, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-class-loader, ros-lyrical-event-camera-msgs, ros-lyrical-rclcpp <!nocheck>, ros-lyrical-ros-environment, ros-lyrical-rosbag2-cpp <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/event_camera_codecs/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-event-camera-codecs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-class-loader, ros-lyrical-event-camera-msgs, ros-lyrical-ros-environment, ros-lyrical-ros-workspace
+Description: package to encode and decode event_camera_msgs
